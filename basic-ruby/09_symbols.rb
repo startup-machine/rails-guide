@@ -17,7 +17,7 @@ puts old[:curso]
 
 # MODO NOVO 
 
-n = {curso: "rails"}
-puts n.object_id
+novo = {curso: "rails"}
+puts novo.object_id
 
-puts n[:curso]
+puts novo[:curso]
